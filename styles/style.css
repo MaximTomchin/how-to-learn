@@ -360,12 +360,7 @@ margin: 0;
   background: url(../images/facebook_color_white.svg) no-repeat;
   padding-left: 26px;
   margin-left: 0;
-  text-decoration: none;
-  color: white;
-  line-height: 30px;
-  font-size: 18px;
-  font-weight: normal;
- }
+  }
 
  .footer__link_fb:hover {
   text-decoration: underline;
@@ -376,11 +371,6 @@ margin: 0;
   background: url(../images/vk_color_white.svg) no-repeat;
   padding-left: 26px;
   margin-left: 0;
-  text-decoration: none;
-  color: white;
-  line-height: 30px;
-  font-size: 18px;
-  font-weight: normal;
   }
 
   .footer__link_vk:hover {
@@ -392,12 +382,7 @@ margin: 0;
   background: url(../images/instagram_color_white.svg) no-repeat;
   padding-left: 26px;
   margin-left: 0;
-  text-decoration: none;
-  color: white;
-  line-height: 30px;
-  font-size: 18px;
-  font-weight: normal;
- }
+  }
 
  .footer__link_inst:hover {
   text-decoration: underline;
