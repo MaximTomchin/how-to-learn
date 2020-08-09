@@ -53,6 +53,11 @@
     color: #2f80ed;
   }
 
+  .header__link:hover {
+    text-decoration: underline;
+    color: #644;
+  }
+
    .header__main-illustration {
     position: absolute;
     right: 0;
@@ -217,6 +222,11 @@
   z-index: 2;
 }
 
+.feinman__link:hover {
+  text-decoration: underline;
+  color: #2f80ed;
+ }
+
 .fainman__main-illustration {
   position: absolute;
   left: 0;
@@ -331,12 +341,18 @@ margin: 0;
   }
 
   .footer__columns-link {
-  text-decoration: none;
-  color: white;
-  line-height: 30px;
-  font-size: 18px;
-  font-weight: normal;
+    text-decoration: none;
+    color: white;
+    line-height: 30px;
+    font-size: 18px;
+    font-weight: normal;
   }
+
+  .footer__columns-link:hover {
+    text-decoration: underline;
+    color: #2f80ed;
+  }
+
 
 .footer__columns-link_social-icon_fb {
   background: url(../images/facebook_color_white.svg) no-repeat;
@@ -347,6 +363,11 @@ margin: 0;
   line-height: 30px;
   font-size: 18px;
   font-weight: normal;
+ }
+
+ .footer__columns-link_social-icon_fb:hover {
+  text-decoration: underline;
+  color: #2f80ed;
  }
 
  .footer__columns-link_social-icon_vk {
@@ -360,6 +381,11 @@ margin: 0;
   font-weight: normal;
   }
 
+  .footer__columns-link_social-icon_vk:hover {
+    text-decoration: underline;
+    color: #2f80ed;
+  }
+
  .footer__columns-link_social-icon_inst {
   background: url(../images/instagram_color_white.svg) no-repeat;
   padding-left: 26px;
@@ -369,4 +395,9 @@ margin: 0;
   line-height: 30px;
   font-size: 18px;
   font-weight: normal;
+ }
+
+ .footer__columns-link_social-icon_inst:hover {
+  text-decoration: underline;
+  color: #2f80ed;
  }
