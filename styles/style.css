@@ -38,6 +38,7 @@
   }
 
   .header__subtitle {
+    margin: 0;
     width: 388px;
     line-height: 25px;
     font-size: 18px;
@@ -148,7 +149,7 @@
     margin: 20px auto 0 auto;
   }
 
-  .table_theme {
+  .table {
     width: 1100px;
     display: flex;
   }
@@ -257,7 +258,7 @@
 }
 
 .table_theme_dark {
-  margin: 80px auto 90px auto;
+  margin: 0 auto 90px auto;
   width: 1100px;
   display: flex;
   color: white;
@@ -292,6 +293,7 @@
   width: 877px;
   height: 877px;
   background-image: url("../images/kaufman-triangle.svg");
+  background-size: cover;
   z-index: 1;
 }
 
@@ -309,7 +311,7 @@
   justify-content: space-between;
 }
 
-.footer__columns_content_copyright {
+.footer__content-copyright {
   display: flex;
   flex-direction: column;
   flex-basis: 711px;
@@ -327,20 +329,20 @@ margin: 0;
   font-weight: normal;
 }
 
-.footer__columns-heading {
+.footer__heading {
   margin: 0;
   line-height: 30px;
   font-size: 18px;
   font-weight: bold;
 }
 
-.footer__columns-links {
+.footer__links {
   margin: 20px 0 16px 0;
   list-style-type: none;
   padding-left: 0;
   }
 
-  .footer__columns-link {
+  .footer__link {
     text-decoration: none;
     color: white;
     line-height: 30px;
@@ -348,13 +350,13 @@ margin: 0;
     font-weight: normal;
   }
 
-  .footer__columns-link:hover {
+  .footer__link:hover {
     text-decoration: underline;
     color: #2f80ed;
   }
 
 
-.footer__columns-link_social-icon_fb {
+.footer__icon-fb {
   background: url(../images/facebook_color_white.svg) no-repeat;
   padding-left: 26px;
   margin-left: 0;
@@ -365,12 +367,12 @@ margin: 0;
   font-weight: normal;
  }
 
- .footer__columns-link_social-icon_fb:hover {
+ .footer__icon-fb:hover {
   text-decoration: underline;
   color: #2f80ed;
  }
 
- .footer__columns-link_social-icon_vk {
+ .footer__icon-vk {
   background: url(../images/vk_color_white.svg) no-repeat;
   padding-left: 26px;
   margin-left: 0;
@@ -381,12 +383,12 @@ margin: 0;
   font-weight: normal;
   }
 
-  .footer__columns-link_social-icon_vk:hover {
+  .footer__icon-vk:hover {
     text-decoration: underline;
     color: #2f80ed;
   }
 
- .footer__columns-link_social-icon_inst {
+ .footer__icon-inst {
   background: url(../images/instagram_color_white.svg) no-repeat;
   padding-left: 26px;
   margin-left: 0;
@@ -397,7 +399,7 @@ margin: 0;
   font-weight: normal;
  }
 
- .footer__columns-link_social-icon_inst:hover {
+ .footer__icon-inst:hover {
   text-decoration: underline;
   color: #2f80ed;
  }
