@@ -1,0 +1,13 @@
+ .footer__link_vk {
+  background: url(../../../../images/vk_color_white.svg) no-repeat;
+  padding-left: 26px;
+  margin-left: 0;
+  opacity: 1;
+  transition: opacity .3s ease;
+  }
+
+  .footer__link_vk:hover {
+    text-decoration: underline;
+    color: #2f80ed;
+    opacity: .5;
+  }

@@ -1,0 +1,8 @@
+
+  .video__iframes {
+    padding-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(2, 515px);
+    column-gap: 20px;
+    overflow: visible;
+  }
